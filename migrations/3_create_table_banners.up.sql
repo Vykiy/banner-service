@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS banners (
+    id SERIAL PRIMARY KEY,
+    data JSONB NOT NULL,
+    is_disabled BOOLEAN NOT NULL DEFAULT FALSE
+);

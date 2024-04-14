@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS banner_feature_tags;
